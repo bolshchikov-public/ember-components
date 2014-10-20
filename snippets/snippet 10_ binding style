@@ -1,0 +1,3 @@
+<div class="bar">
+  <div class="progress" {{bind-attr style=style}}></div>
+</div>

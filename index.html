@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EmberFest Widget Component</title>
+  <link rel="stylesheet" href="app.css"/>
+</head>
+<body>
+
+<script type="text/x-handlebars">
+  {{input type="range" value=App.events}}
+
+  {{#progress-bar progress=App.events}}
+    {{view.progress}} / 100
+  {{/progress-bar}}
+
+
+</script>
+
+<script type="text/x-handlebars" id="components/progress-bar">
+  <div class="bar" {{action 'proxy'}}>
+    <div class="progress" {{bind-attr style=style}}></div>
+    <span>{{yield}}</span>
+  </div>
+</script>
+
+<script type="text/javascript" src="vendors/jquery.js"></script>
+<script type="text/javascript" src="vendors/handlebars.js"></script>
+<script type="text/javascript" src="vendors/ember.js"></script>
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

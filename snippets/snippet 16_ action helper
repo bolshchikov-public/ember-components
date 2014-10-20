@@ -1,0 +1,4 @@
+<div class="bar" {{action 'proxy'}}>
+  <div class="progress" {{bind-attr style=style}}></div>
+  <span>{{progress}} / {{yield}}</span>
+</div>

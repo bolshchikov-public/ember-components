@@ -1,0 +1,5 @@
+App.ProgressBarComponent = Ember.Component.extend({
+  style: function () {
+    return 'width: ' + this.get('progress') + '%';
+  }.property('App.events')
+});

@@ -1,0 +1,15 @@
+.bar {
+  border: 1px solid lightgrey;
+  height: 16px;
+  width: 200px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+.bar span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  font-size: 13px;
+}

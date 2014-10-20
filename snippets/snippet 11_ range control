@@ -1,0 +1,2 @@
+{{input type="range" value=App.events}}
+{{progress-bar progress=App.events}}

@@ -1,0 +1,5 @@
+proxy: function () {
+  console.log('pass it on');
+  this.sendAction('sayHello');
+},
+sayHello: 'hello'

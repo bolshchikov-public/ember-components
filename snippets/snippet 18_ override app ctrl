@@ -1,0 +1,5 @@
+App.ApplicationController = Ember.Controller.extend({
+  hello: function () {
+    console.log('hello sent action');
+  }
+});

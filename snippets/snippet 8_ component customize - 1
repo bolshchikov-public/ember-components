@@ -1,0 +1,7 @@
+// For component customization, we inherit from the
+// Ember.Component and name it according to the convention
+// Classified name of the component with the reserved word
+// `Component` at the end.
+App.ProgressBarComponent = Ember.Component.extend({
+
+});

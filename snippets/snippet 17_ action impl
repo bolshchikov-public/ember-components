@@ -1,0 +1,3 @@
+proxy: function () {
+  console.log('pass it on');
+}

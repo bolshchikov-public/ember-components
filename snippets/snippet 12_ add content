@@ -1,0 +1,3 @@
+{{#progress-bar progress=App.events}}
+  {{view.progress}} / 100
+{{/progress-bar}}

@@ -1,0 +1,5 @@
+<script type="text/x-handlebars" id="components/progress-bar">
+  {{! this is a definition of an Ember Component}}
+  {{! template id should be defined as component/component-name}}
+  {{! component-name should be with dash}}
+</script>
